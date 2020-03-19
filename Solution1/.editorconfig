@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0266: Cannot implicitly convert type 'double' to 'decimal'. An explicit conversion exists (are you missing a cast?)
+dotnet_diagnostic.CS0266.severity = none
