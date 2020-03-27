@@ -53,7 +53,7 @@ namespace HW._06
             Console.WriteLine("Task_2" + "\n");
 
             int[] arr1 = new int[6];
-            Console.Write("1) Array from the keyboards -1: ");
+            Console.WriteLine("1) Array from the keyboards -1: ");
 
             for (int i =0; i < arr1.Length-1; i++)
             {
@@ -77,6 +77,7 @@ namespace HW._06
             {
                 Console.Write(arr1[j] + " ");
             }
+            Console.WriteLine();
         }
 
        static void Task_3()
@@ -85,8 +86,8 @@ namespace HW._06
 
             int[] arr1 = new int[10];
             int[] arr2 = new int[10];
-            
 
+            Console.WriteLine("Reverse ARRAY MY");
             for (int i = 0; i < arr1.Length; i++)
             {
                 arr1[i] = i;   
@@ -95,7 +96,7 @@ namespace HW._06
             {
                 Console.Write(arr1[i]);
             }
-            Console.WriteLine("\n");
+            Console.WriteLine();
 
             for (int j = arr1.Length-1; j >= 0; j--) 
             {
@@ -103,26 +104,20 @@ namespace HW._06
                 Console.Write(arr1[j] = j);
             }
             Console.WriteLine("\n");
-            Console.Write("REVERSE ARRAY \n");
+            Console.Write("REVERSE ARRAY Microsoft \n");
             for (int k = 0; k < arr2.Length; k++)
             {
                 arr2[k] = k;
-                
                 Console.Write(arr2[k]);
             }
-            arr2.Reverse();
-            Console.Write(arr2);
+            Console.WriteLine();
+
+            Array.Reverse(arr2);
             for (int k = 0; k < arr2.Length; k++)
             {
-                arr2.Reverse();
-                Console.Write(arr2);
+                Console.Write(arr2[k]);
             }
-
-
-
-
-
-
+            Console.WriteLine();
 
             }   
 

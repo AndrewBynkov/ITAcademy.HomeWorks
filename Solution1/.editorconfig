@@ -2,3 +2,6 @@
 
 # CS0266: Cannot implicitly convert type 'double' to 'decimal'. An explicit conversion exists (are you missing a cast?)
 dotnet_diagnostic.CS0266.severity = none
+
+# IDE0040: Add accessibility modifiers
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:silent
